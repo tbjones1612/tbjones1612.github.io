@@ -1,28 +1,11 @@
 /* Fonts */
 
-@font-face {
-  font-family: "VulfMono";
-  src: url(../fonts/Vulf\ Mono\ Regular.otf);
-}
 
-@font-face {
-  font-family: "VulfMonoIt";
-  src: url(../fonts/Vulf\ Mono\ Regular\ Italic.otf);
-}
-
-@font-face {
-  font-family: "VulfSans";
-  src: url(../fonts/VulfSans-Regular.ttf);
-}
 
 /* Page Backgrounds */
 
 .projects {
   background: rgb(43, 35, 92);
-}
-
-.gallery {
-  background-color: rgb(40, 32, 50);
 }
 
 .learnlog {
@@ -128,8 +111,8 @@
 body {
   display: flex;
   color: white;
-  font-family: "VulfMono";
-  font-weight: normal;
+  font-family: "Courier";
+  font-weight: bold;
   font-size: normal;
 }
 
@@ -144,14 +127,12 @@ h1.header {
 }
 
 h3 {
-  font-weight: 100;
-  font-family: "VulfMonoIt";
+  font-weight: bold;
   line-height: 23px;
 }
 
 a {
   color: white;
-  font-family: "VulfMonoIt";
 }
 
 hr {
@@ -175,7 +156,6 @@ hr {
 }
 
 .temperature-description {
-  font-family: "VulfSans";
   font-size: 30px;
 }
 
@@ -183,7 +163,6 @@ hr {
   margin: 15px;
   display: flex;
   align-items: center;
-  font-family: "VulfMonoIt";
 }
 
 .degree-section span {
@@ -203,7 +182,6 @@ hr {
 }
 
 .timerprize {
-  font-family: "VulfSans";
   margin-top: -50px;
   font-size: 30px;
   text-align: center;
